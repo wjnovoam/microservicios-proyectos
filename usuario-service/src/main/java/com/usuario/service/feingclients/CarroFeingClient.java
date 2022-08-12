@@ -1,7 +1,6 @@
 package com.usuario.service.feingclients;
 
 import com.usuario.service.models.Carro;
-import com.usuario.service.models.Moto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
