@@ -14,7 +14,7 @@ import java.util.List;
  * @author William Johan Novoa Melendrez
  * @date 11/08/2022
  */
-@FeignClient(name = "carro-service", url = "http://localhost:8002", path="/carro")
+@FeignClient(name = "carro-service", path="/carro")
 public interface CarroFeingClient {
     @PostMapping
     Carro save(@RequestBody Carro carro);

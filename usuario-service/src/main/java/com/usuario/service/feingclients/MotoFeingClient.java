@@ -13,7 +13,7 @@ import java.util.List;
  * @author William Johan Novoa Melendrez
  * @date 11/08/2022
  */
-@FeignClient(name = "moto-service", url = "http://localhost:8003", path="/moto")
+@FeignClient(name = "moto-service", path="/moto")
 public interface MotoFeingClient {
     @PostMapping
     Moto save(@RequestBody Moto moto);
